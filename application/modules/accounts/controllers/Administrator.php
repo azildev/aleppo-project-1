@@ -12,7 +12,8 @@ class Administrator extends Backend_Controller {
 	}
 	public function index()
 	{
-		$data['title'] = "Halaman Login 1";		
+		$data['title'] = "Halaman Login 1";	
+		$data['beranda'] = "Beranda Halaman Login";		
 		$this->load->view('accounts/v_home',$data);
 		
 	}
