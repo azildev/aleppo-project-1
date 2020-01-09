@@ -18,7 +18,7 @@ class Login extends Backend_Controller
 	{
 		$data['title'] = "Halaman Login 2";	
 		$data['beranda'] = "Beranda Halaman Login";
-		$data['tes'] = "terserah";		
+		$data['tes'] = "terserah Arizal";		
 		$this->load->view('accounts/v_login',$data);
 	}
 
